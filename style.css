@@ -91,7 +91,7 @@ p{
       
   }
 
-.orange-highlight{
+.color-highlight{
     color:salmon;
     text-align: center;
 
@@ -175,7 +175,7 @@ p{
   }
   
   
-  /* Style buttons */
+  
 .btn {
     background-image: linear-gradient(45deg,lightsalmon,tomato);
     border: none;
@@ -188,10 +188,64 @@ p{
     text-decoration: none;
     text-decoration-skip-ink: 5px;
   }
+
+  .single-ex{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+
+}
+  
+.ex-a{
+ background-position:left;
+ text-align: left;
+    
+}
+#Stack{
+  border-left: 7px solid;
+  border-image:linear-gradient(180deg,yellow,tomato);
+  border-image-slice: 1;
+  padding-bottom:10px ;
+}
+#web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,green,cyan);
+    border-image-slice: 1; 
+    padding-bottom: 10px;
+    
+}
+
+.left-side{
+    padding-bottom: 20px 40px 10px 40px;
+    background-position: right;
+    margin-left: 100px;
+    text-align: left;
+    
+    
+}
+  .move2{
+      text-align: center;
+      color:#242488;
+      font-size: 50px;
+    
+  }
+  
+ 
   
   
+  .padd{
+      padding-left:10px;
+      
+  }
+  .color-highlight2{
+    color:coral;
+    text-align: center;
+  }
   
-  
-  
-  
-  
+  h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
